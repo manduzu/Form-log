@@ -1,0 +1,177 @@
+body {
+  background-color: #eee;
+}
+
+* {
+  font-family: "Roboto Mono", monospace;
+}
+
+img {
+  width: 100%;
+  padding-right: 12px;
+}
+
+.g-black {
+  background-color: #240779;
+}
+
+#logo {
+  width: 30px;
+  height: 30px;
+  border-radius: 4px;
+}
+
+.navbar-brand {
+  padding: 14px 20px;
+  font-size: 16px;
+}
+
+.navbar-nav {
+  width: 100%;
+}
+
+.nav-item {
+  padding: 6px 14px;
+  text-align: center;
+}
+
+.nav-link {
+  padding-bottom: 10px;
+}
+
+.v-line {
+  background-color: grey;
+  width: 1px;
+  height: 20px;
+}
+
+.navbar-collapse.collapse.in {
+  display: block !important;
+}
+
+@media (max-width: 576px) {
+  .nav-item {
+    width: 100%;
+    text-align: left;
+  }
+  .v-line {
+    display: none;
+  }
+}
+.get-in-touch {
+  max-width: 800px;
+  margin: 50px auto;
+  position: relative;
+}
+.get-in-touch .title {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 3.2em;
+  line-height: 48px;
+  padding-bottom: 48px;
+  color: #5543ca;
+  background: #5543ca;
+  background: linear-gradient(to right, #f4524d 0%, #5543ca 100%) !important;
+  -webkit-text-fill-color: transparent !important;
+  -webkit-background-clip: text !important;
+}
+
+.contact-form .form-field {
+  position: relative;
+  margin: 32px 0;
+}
+.contact-form .input-text {
+  display: block;
+  width: 100%;
+  height: 36px;
+  border: 0;
+  border-bottom: 2px solid;
+  border-color: #5543ca;
+  padding-top: 15px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+}
+.contact-form .input-text:focus {
+  outline: none;
+}
+.contact-form .input-text:focus + .label {
+  transform: translateY(-24px);
+}
+.contact-form .input-text.not-empty + .label {
+  transform: translateY(-24px);
+}
+.contact-form .label {
+  position: absolute;
+  left: 20px;
+  bottom: 11px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #5543ca;
+  cursor: text;
+  transition: transform 0.2s ease-in-out;
+}
+.contact-form .submit-btn {
+  display: inline-block;
+  background: linear-gradient(125deg, #a72879, #064497);
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+  padding: 8px 16px;
+  border: none;
+  width: 200px;
+  cursor: pointer;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+}
+
+.c-details span {
+  font-weight: 300;
+  font-size: 13px;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  background-color: #eee;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 39px;
+}
+
+.badge span {
+  background-color: #fffbec;
+  width: 60px;
+  height: 25px;
+  padding-bottom: 3px;
+  border-radius: 5px;
+  display: flex;
+  color: #727272;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress {
+  height: 10px;
+  border-radius: 10px;
+}
+.progress div {
+  background-color: red;
+}
+
+.text1 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.text2 {
+  color: #a5aec0;
+}/*# sourceMappingURL=style.css.map */
